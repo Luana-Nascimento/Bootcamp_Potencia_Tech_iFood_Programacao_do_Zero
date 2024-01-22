@@ -4,6 +4,8 @@ Repositório criado para guardar conteúdo de desafios entregues durante o proce
 
 Plataforma: https://web.dio.me/
 
+Empresa Patrocinadora: iFood
+
 Tipo: Bootcamp
 
 Nivel: Básico
