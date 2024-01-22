@@ -1,0 +1,40 @@
+class heroi {
+    constructor(nome, idade, tipo){ 
+        this.nome = nome;
+        this.idade = idade;
+        this.tipo = tipo;
+    }
+
+atacar(){
+    let ataque = "";
+
+    switch (this.tipo){
+        case "mago": 
+        ataque = "magia";
+        break;
+
+        case "guerreiro": 
+        ataque = "espada";
+        break;
+
+        case "monge": 
+        ataque = "artes marciais";
+        break;
+
+        case "ninja": 
+        ataque = "shuriken";
+        break;
+
+        default:
+        ataque = "ataque desconhecido";
+    }
+    
+    console.log(`O ${this.tipo} chamado ${this.nome} de ${this.idade} anos atacou usando ${ataque}`)
+    
+
+}
+
+}
+
+const monge = new heroi("Saros Galidra", 32, "monge")
+monge.atacar()
